@@ -1,0 +1,11 @@
+﻿@model Employee
+
+<form asp-action="RetirementInfo" method="post">
+    @* TODO:
+        a. must have a single input named Id which will be of type number.
+        b. allows the user to select an employee by Id
+        c. submits to the ActionResult RetirementInfo.
+    *@
+    <input type="number" asp-for="Id" />
+
+</form>
